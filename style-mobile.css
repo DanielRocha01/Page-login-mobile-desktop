@@ -1,0 +1,89 @@
+/*    
+    <?php
+      
+     ?>
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root {
+  --font-padrao:  'Lobster', cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: var(--font-padrao);
+}
+.header-top {
+  margin-top: 10px;
+  text-align: center;
+}
+.state-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.expand {
+  padding: 20px;
+  border-radius: 60%;
+}
+.enter {
+  /*background-color: rgba(158,62,245,0.309);*/
+  padding: 10px;
+}
+.create {
+  /*background-color: rgba(158,62,245,0.309);*/
+  padding: 10px;;
+}
+.profile-photo {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.photo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 30px;
+}
+.form-line {
+  width: 100vw;
+  text-align: center;
+}
+form input {
+  margin-bottom: 20px;
+  width: 85%;
+  height: 40px;
+  padding: 5px 10px;
+  color: rgb(0,0,0);
+  font-family: var(--font-padrao);
+}
+input:valid {
+  border: 3px solid rgba(65,205,41,0.385);
+}
+input:invalid {
+  border: 3px solid rgba(220,21,21,0.385);
+}
+input:focus {
+  border: 3px solid lightgray;
+}
+.switch-pass {
+  color: rgb(23,177,247);
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+}
